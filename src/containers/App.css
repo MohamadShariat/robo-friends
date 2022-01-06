@@ -1,6 +1,6 @@
 @font-face {
   font-family: "SEGA LOGO FONT";
-  src: local("SEGA LOGO FONT") url("SEGA.woff") format("woff");
+  src: local("SEGA LOGO FONT") url("../assets/SEGA.woff") format("woff");
   font-style: normal;
   font-weight: normal;
 }
