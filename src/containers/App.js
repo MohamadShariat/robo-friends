@@ -34,8 +34,8 @@ class App extends Component {
 
     const filteredRobots = robots.filter((robot) => {
       return robot.name
-        .toLocaleLowerCase()
-        .includes(searchfield.toLocaleLowerCase());
+        .toLowerCase()
+        .includes(searchfield.toLowerCase());
     });
     return !robots.length ? (
       <h1 className="tc f1">Loading</h1>
